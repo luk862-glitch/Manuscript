@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: lightgrey;
+    color: rgb(236, 222, 209);
     font-size: 4.5rem;
     background-color: darkblue;
     padding-top: 1rem;
@@ -22,16 +22,16 @@ h2 {
 }
 
 
-.redheading {color: rgb(186, 23, 23)}  
+p{ font-size: 1.2rem;
+    line-height: 1.4;
+    ;}
+
+    .redheading {color: rgb(186, 23, 23)}  
 .blushtext {color:rgb(174, 98, 121)}
 .note {color: rgb(79, 82, 147);
     font-size: 1rem;
     line-height: 1.4;}
-
-
-p{ font-size: 1.2rem;
-    line-height: 1.4;
-    ;}
+    .bluetext {color: rgb(79, 82, 147);}
 
  blockquote { 
      color: rgb(61, 15, 15);
