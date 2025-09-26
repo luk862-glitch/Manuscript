@@ -1,3 +1,47 @@
-html { color: darkblue
+body {
+    background-color: whitesmoke; 
+    font-family: 'Inconsolata', monospace;
+    color: rgb(35, 33, 33);
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
+
+h1 {
+    color: lightgrey;
+    font-size: 4.5rem;
+    background-color: darkblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+h2 {
+    color: rgb(65, 65, 177);
+    font-size: 2rem;
+
+}
+
+
+.redheading {color: rgb(186, 23, 23)}  
+.blushtext {color:rgb(174, 98, 121)}
+.note {color: rgb(79, 82, 147);
+    font-size: 1rem;
+    line-height: 1.4;}
+
+
+p{ font-size: 1.2rem;
+    line-height: 1.4;
+    ;}
+
+ blockquote { 
+     color: rgb(61, 15, 15);
+     font-size: 1.6rem;
+    background-color: rgb(235, 213, 230);
+    padding-left: 1rem;
+border-left: 4px solid rgb(174, 98, 121); }
+
+
+footer { 
+    color: ightgray; }
+
 
