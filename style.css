@@ -1,30 +1,28 @@
 :root {
-    background-color: rgb(228, 227, 224); 
+    background-color: whitesmoke; 
     font-family: 'Open Sans', sans-serif;
     color: rgb(35, 33, 33);
-    padding-left: 10rem;
-    padding-right: 10rem;
+    font-size: 110%;
+    padding-inline: 10rem;
 }
 
 h1 {
     color: darkblue;
     display: inline;
-    font-size: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;  
+    font-size: 3rem;
+    padding-block: 1rem;
 }
 
 h2 {
     color: rgb(65, 65, 177);
     font-size: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-
+    padding-inline: 1rem;
 }
 
 
 p{ font-size: 1.3rem;
     line-height: 1.6;
+    max-width: 65ch;
     ;}
 
 
@@ -73,8 +71,7 @@ color: transparent;
 
 nav {
   color: rgb(61, 15, 15);
-   padding-top: 3rem;
-  padding-bottom: 3rem;
+   padding-block: 3rem;
 }
 
 
@@ -84,8 +81,7 @@ nav {
     font-size: 1.4rem;
     background-color: rgb(235, 213, 230);
     padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-block: 1rem;
     border-left: 4px dotted rgb(174, 98, 121); 
     margin: 2rem;
 }
