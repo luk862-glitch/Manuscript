@@ -1,5 +1,5 @@
 :root {
-    background-color: whitesmoke; 
+    background-color: rgb(238, 238, 238); 
     font-family: 'Open Sans', sans-serif;
     color: rgb(35, 33, 33);
     font-size: 110%;
@@ -8,71 +8,110 @@
 
 
 h1 {
-    color: darkblue;
-    display: inline;
-    font-size: 3rem;
+    font-size: 6rem;
+    font-weight:500;
 }
 
 h2 {
-    color: rgb(65, 65, 177);
     font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 5rem;
 }
 
-
-p{ font-size: 1.3rem;
-    line-height: 1.6;
-    max-width: 90ch;
-    margin-block: 1.25rem;
-    ;}
-
+p{ max-width: 65ch; 
+   margin-block: 1rem;
+ }
 
 em {
-  font-weight: 650;
+color:rgb(53, 53, 165);
 }
 
 /* class */
-.note {color: rgb(79, 82, 147);
+
+.note {
     font-size: 1rem;
-    line-height: 1.4;
-    margin: 1rem;
+    font-weight: 400;
 }
 
-
-.bluetext {color: rgb(79, 82, 147);
+.bluetext {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    max-width: 90ch;
+    margin-block: 1.25rem;
 }
 
+/* ornamentation to symbolize "style" in the title */
+.style {font-family: 'Open sans', sans-serif;
+    color: rgb(38, 38, 207);
+    font-size: 5.2rem;
 
-.style {font-family: 'Playfair Display', serif;
-    color: darkblue;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 200%;
-    padding-right: 1rem;
-    display: inline-block;
+      text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: .2rem;
+  text-underline-offset: .35rem;
 
-/* ornamentation to symbolize "style" */
-    background: linear-gradient(to right, darkblue, deepskyblue);
+    /* title gradient */
+    /* background: linear-gradient(to right, deepskyblue, royalblue, darkblue);
     background-clip: text;
-    color: transparent;
-    border-bottom: 8px dotted royalblue;
+    color: transparent; */
+    /* border-bottom: 0.2rem dotted royalblue; */
  }
 
  /* change color when hover */
- .style:hover {
-  background: linear-gradient(to right, deepskyblue, royalblue, darkblue);
+ /* .style:hover {
+    background: linear-gradient(to right, darkblue, deepskyblue);
   background-clip: text;
 color: transparent;
+border-bottom: 0.25rem dotted deepskyblue;
+
+} */
+
+
+
+/* my response */
+.response-heading {font-family: 'Playfair Display', serif;
+    color: rgb(72, 50, 49);
+    text-align: center;
+  background-color: rgb(212, 230, 235);
+  border: 0.3rem dotted rgb(72, 50, 49);
+ 
+}  
+
+.browntext {font-family: 'Playfair Display', serif; 
+    background-color: rgb(243, 237, 217);
+    color:rgb(72, 50, 49);
+     font-size: 1.3rem;
+    line-height: 1.6;
+    max-width: 90ch;
+    margin-block: 1.25rem;
+    border: 0.3rem dotted rgb(53, 16, 16);
+    padding: 3rem; 
+
+}
+
+.dottedlink {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(240, 224, 236);
+    color:rgb(186, 23, 23);
+    float: inline-start;
+	inline-size: 10rem;
+    text-align: center;
+	margin-inline-end: 1rem;
+    border: 0.15rem dotted rgb(186, 23, 23);
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 
-.redheading {font-family: 'Playfair Display', serif;
-    color: rgb(186, 23, 23);
-}  
-
-.blushtext {font-family: 'Playfair Display', serif; 
-    color:rgb(174, 98, 121);
-    border: 8px dotted rgb(186, 23, 23);
-    padding: 3rem; 
+a {
+	background-color: rgb(214, 227, 243);
+    color:  royalblue;
+    float: left;  
+    text-align: center;
+	margin-inline-end: 1rem;
+	padding: 1rem;
+    text-decoration: underline;
+    display: block;  
 }
 
 
@@ -89,13 +128,15 @@ nav {
     background-color: rgb(235, 213, 230);
     padding-left: 1rem;
     padding-block: 1rem;
-    border-left: 4px dotted rgb(174, 98, 121); 
-    margin: 2rem;
+    border-left: 0.3rem dotted rgb(174, 98, 121); 
+    margin-inline: 7rem;
+
 }
 
 
 
 footer { 
+    font-size: 1.2rem;
     color: ightgray;
     margin: 1rem;
 }
