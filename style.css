@@ -17,14 +17,13 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-size: 3rem;
     font-weight: 500;
-    border-inline-start-color: black;
+    /* border-inline-start-color: black;
 	border-inline-start-style: solid;
-	border-inline-start-width: 0.25rem;
+	border-inline-start-width: 0.25rem; */
     background-color: rgb(240, 238, 237, 0.9);
     padding-inline: 4rem;
     padding-block: 1rem;
     padding-left:1rem;
-    /* margin-block: 3rem; */
     inline-size: 80%;
 	inset-block-start: 1rem;
 	inset-inline-start: 3rem;
