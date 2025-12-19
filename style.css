@@ -1,26 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+
+
 :root {
-    background-color: rgb(238, 238, 237); 
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(35, 33, 33);
-    font-size: 125%;
-    padding-inline: 10rem;
+  --bg-color: rgb(238, 238, 237);
+  --h2-bg: rgb(240, 238, 237, 0.9);
+  --text-color: rgb(35, 33, 33);
+  --link-color: rgb(53, 53, 165);
+
+  --font-sans: "Open Sans", sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  --content-width: 70ch;
+  --side-padding: 5rem;
+  font-size: 125%;
+  padding-inline: 10rem;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 
 h1 {
-    font-size: 5.5rem;
+    font-size: 3rem;
     font-weight:500;
     width: 100%;
 }
 
+@media (width>600px){
+    h1 {
+    font-size: 5.5rem;
+}
+}
+
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     font-size: 3rem;
     font-weight: 500;
-    /* border-inline-start-color: black;
-	border-inline-start-style: solid;
-	border-inline-start-width: 0.25rem; */
-    background-color: rgb(240, 238, 237, 0.9);
+    background-color: var(--h2-bg);
     padding-inline: 4rem;
     padding-block: 1rem;
     padding-left:1rem;
@@ -31,16 +52,17 @@ h2 {
 }
 
 
+
 p { 
-    max-width: 75ch; 
-      padding-inline: 5rem;
-   margin-block: 1.8rem;
+    max-width: var(--content-width); 
+    padding-inline: 5rem;
+    margin-block: 1.8rem;
     
  }
 
 
 em {
-color:rgb(53, 53, 165);
+    color:var(--link-color);
 }
 
 
@@ -59,22 +81,20 @@ a {
 
 
 .dottedlink {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     background-color: rgb(240, 224, 236);
     color:rgb(150, 49, 54);
     font-style:italic;
-   float:right;
-	/* inline-size: 10rem; */
+    float:right;
     text-align: center;
     display: block; 
-	/* margin-inline-end: 1rem; */
 
 }
 
 
 /* class */
 .note {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     font-size: .5 rem;
     font-weight: 400;
     line-height: 150%;
@@ -93,26 +113,17 @@ a {
 
 /* ornamentation to symbolize "style" in the title */
 .style {
-    font-family: 'Open sans', sans-serif;
+    font-family: var(--font-sans-serif);
     font-size: 6rem;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-thickness: 1rem;
  }
 
- .style:hover{
-     font-family: 'Playfair Display', serif;
-    color: rgb(38, 38, 207);
-    font-size: 6.5rem;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    text-decoration-thickness: .75 rem;
- }
-
 
 /* my response */
 .response-heading {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     font-style: italic;
     color:brown;
     background-color: rgb(240, 224, 236, 0.9);
@@ -124,7 +135,7 @@ a {
 
 
 .browntext {
-    font-family: 'Playfair Display', serif; 
+    font-family: var(--font-serif);
     color:rgb(72, 50, 49);
     font-size: 1.2rem;
     line-height: 1.6;
@@ -147,7 +158,7 @@ blockquote {
 }
 
 .reading-q {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     font-size: 2rem;
     font-weight: 600;
     margin-inline: 3rem;
@@ -163,7 +174,7 @@ blockquote {
 }
 
 .response-quote {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     color: rgb(61, 15, 15);
     font-size: 1.8rem;
     padding-inline: 1rem;
@@ -175,7 +186,7 @@ blockquote {
 
 
 .orginal-quote{
-    font-family: 'Playfair Display', serif;
+    font-family: var(--font-serif);
     color: rgb(61, 15, 15);
     font-size: 1.4rem;
     text-align: left;
